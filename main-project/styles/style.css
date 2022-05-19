@@ -2,6 +2,7 @@
     --dark-background: #1F2937;
     --hero-grey: #E5E7EB;
     --hero-white: #F9FAF8;
+    --button-blue: #3882F6;
 }
 
 * {
@@ -16,7 +17,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 150px 10px 150px;
+    padding: 15px 150px 15px 150px;
 }
 
 nav ul {
@@ -25,18 +26,61 @@ nav ul {
 
 .nav-bar {
     display: flex;
-    font-size: 18px;
 }
 
 .nav-bar a {
-    color: var(--hero-grey);
     font-weight: normal;
     text-decoration: none;
     align-items: center;
     margin: 10px;
 }
 
+.hero-second-text {
+    color: var(--hero-grey);
+    font-size: 18px;
+}
+
 .logo {
     color: var(--hero-white);
     font-size: 24px;
 }
+
+.hero {
+    background-color: var(--dark-background);
+    display: flex;
+    padding: 100px 150px 100px 150px;
+}
+
+.hero-heading {
+    color: var(--hero-white);
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
+.hero-left, .hero-right {
+    width: 50%;
+}
+
+.hero-left {
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.sign-up-button {
+    border-radius: 5px;
+    color: var(--hero-white);
+    background-color: var(--button-blue);
+    text-decoration: none;
+    padding: 7px 30px 7px 30px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.hero-right {
+    color: var(--hero-grey);
+    background-color: rgb(134, 134, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
