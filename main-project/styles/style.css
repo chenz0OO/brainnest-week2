@@ -125,4 +125,23 @@ nav ul {
 /* Quote section */
 .quote {
     background-color: var(--hero-grey);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote p {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 36px;
+    color: var(--text-black);
+    margin: auto;
+    width: 60%;
+}
+
+.quote h6 {
+    font-size: 26px;
+    width: 60%;
+    margin: auto;
+    text-align: right;
+    padding-top: 30px;
 }
