@@ -92,7 +92,7 @@ nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 150px 80px 150px;
+    margin: 50px 150px 100px 150px;
 }
 
 .random-info h2 {
@@ -144,4 +144,41 @@ nav ul {
     margin: auto;
     text-align: right;
     padding-top: 30px;
+}
+
+/* Action call section */
+.action-call {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.action-banner {
+    background-color: var(--button-blue);
+    display: flex;
+    width: 60%;
+    border-radius: 0.5vw;
+    color: var(--hero-white);
+    padding: 50px 100px 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-banner h5 {
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+.slim-white-text {
+    font-weight: 200;
+}
+
+.action-button {
+    color: var(--hero-white);
+    text-decoration: none;
+    border: 2px solid var(--hero-white);
+    border-radius: 7px;
+    padding: 5px 30px 5px 30px;
 }
