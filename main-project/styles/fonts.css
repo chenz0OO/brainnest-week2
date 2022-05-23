@@ -9,3 +9,15 @@
     src: url(fonts/Roboto-Light.ttf) format('truetype');
     font-weight: 200;
 }
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Black.ttf) format('truetype');
+    font-weight: 900;
+}
