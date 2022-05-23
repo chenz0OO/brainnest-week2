@@ -182,3 +182,11 @@ nav ul {
     border-radius: 7px;
     padding: 5px 30px 5px 30px;
 }
+
+/* Footer */
+footer {
+    background-color: var(--dark-background);
+    text-align: center;
+    color: var(--hero-white);
+    padding: 50px;
+}
