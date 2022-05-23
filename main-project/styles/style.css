@@ -81,7 +81,7 @@ nav ul {
 
 .hero-right {
     color: var(--hero-grey);
-    background-color: rgb(134, 134, 134);
+    background-color: rgb(117, 119, 129);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,7 +109,7 @@ nav ul {
 }
 
 .thumbnails p {
-    color: rgb(134, 134, 134);
+    color: rgb(117, 119, 129);
     text-align: center;
     margin-top: 10px;
     width: 15vw;
@@ -189,4 +189,25 @@ footer {
     text-align: center;
     color: var(--hero-white);
     padding: 50px;
+}
+
+/* Devices */
+@media only screen and (max-width: 900px) {
+    .hero {
+        flex-direction: column;
+    }
+    
+    .hero-left {
+        padding-right: 0;
+        padding-bottom: 60px;
+    }
+
+    .hero-right {
+        padding: 10px;
+        height: 20vw;
+    }
+
+    .hero-left, .hero-right {
+        width: 100%;
+    }
 }
